@@ -1,7 +1,8 @@
 from ssg import hooks
 
 import time
-start_time = Nonetotal_written = 0
+start_time = None
+total_written = 0
 
 @hooks.registare("start_build")
 def start_build():
